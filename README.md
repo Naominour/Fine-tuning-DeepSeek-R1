@@ -1,6 +1,8 @@
 # Fine-tuning DeepSeek-R1
+
 This repository contains the implementation for **fine-tuning DeepSeek-R1-Distill-Llama-8B**, a large-scale open-source language model, on a medical dataset using LoRA (Low-Rank Adaptation) and 4-bit quantisation to optimise performance.
 The fine-tuning process leverages **Unsloth, Hugging Face Transformers, and Weight & Biases (W&B) tracking** for logging and monitoring training metrics.
+
 
 <img src="response.png" width="1200">
 
@@ -45,11 +47,6 @@ The fine-tuning process leverages **Unsloth, Hugging Face Transformers, and Weig
 
 **Live Training Monitoring** using **Weights & Biases (W&B)**
 
-## 📌 Installation
-
-```bash
-pip install transformers datasets trl unsloth accelerate wandb
-```
 
 ## 📂 Dataset Preparation
 
@@ -77,7 +74,8 @@ Question,Answer,split
 
 7️⃣ **Start Training**
 
-📈 **Visualisations**
+
+## 📈 Visualisations
 
 <img src="plots.png" width="1200">
 

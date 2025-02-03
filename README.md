@@ -18,7 +18,8 @@ The fine-tuning process leverages **Unsloth, Hugging Face Transformers, and Weig
 
 **Evaluation Metrics:** Training loss, gradient norm, epoch tracking, and FLOPs estimation
 
-🎯 **Key Learnings & Contributions**
+
+## 🎯 Key Learnings & Contributions**
 
 **◉ Implemented LoRA fine-tuning for DeepSeek-R1-8B**
 
